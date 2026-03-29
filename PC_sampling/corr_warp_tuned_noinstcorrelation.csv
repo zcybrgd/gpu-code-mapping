@@ -1,0 +1,5 @@
+==PROF== Importing kernel demangled names from /root/.config/NVIDIA Corporation/ncu-kernel-renames.yaml
+==PROF== Connected to process 3269440 (/home/zaineb/gpu-code-mapping/matmul)
+C[0][0] = 0.000000
+==PROF== Disconnected from process 3269440
+==PROF== Report: /home/zaineb/gpu-code-mapping/./ncu_reports/my_report_warp_noinstcorr.ncu-rep
