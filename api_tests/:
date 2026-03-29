@@ -1,0 +1,17 @@
+import sys, os, re, csv
+NCU_API_PATH = "/opt/nvidia/nsight-compute/2024.3.1/extras/python"
+sys.path.insert(0, NCU_API_PATH)
+import ncu_report
+#my_context = ncu_report.load_report("my_report.ncu-rep")
+#print("Number of ranges:", my_context.num_ranges())
+#my_range = my_context.range_by_idx(0)
+#print("Number of actions of the first range:", my_range.num_actions())
+#my_action = my_range.action_by_idx(0)
+#print("Action name:", my_action.name())
+#print("Workload type:", my_action.workload_type())
+#workload types are CMDLIST, GRAPH, KERNEL, RANGE
+#print(my_action.metric_names())
+#print("LTS__T_SECTOR_OP_READ_HIT_RATE.PCT:", my_action.metric_by_name('lts__t_sector_op_read_hit_rate.pct').value())
+#display_name_metric = my_action.metric_by_name('device__attribute_display_name')
+#print("device: ", display_name_metric.as_string())
+print("IAction methods:", dir(ncu_report.IAction))
